@@ -1,0 +1,86 @@
+
+/* Mise en forme du site sur la mécanique aéronautique */
+
+body {
+    /* Couleur de fond */
+    background-color: #eef3f8;
+
+    /* Police d'écriture */
+    font-family: Arial, sans-serif;
+
+    /* Espacement autour de la page */
+    margin: 30px;
+    padding: 20px;
+
+    /* Couleur du texte */
+    color: #243447;
+}
+
+/* Titre principal */
+h1 {
+    background-color: #123b5d;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    padding: 25px;
+    border: 3px solid #2878a8;
+}
+
+/* Petit texte sous le titre */
+.intro {
+    text-align: center;
+    font-size: 20px;
+    font-style: italic;
+}
+
+/* Titres des différentes parties */
+h2 {
+    background-color: #d6e7f5;
+    color: #123b5d;
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    text-align: center;
+    border: 2px solid #2878a8;
+    padding: 10px;
+}
+
+/* Paragraphes */
+p {
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+/* Listes */
+ul {
+    background-color: white;
+    padding: 25px 45px;
+    border: 1px solid #b5c9d8;
+}
+
+li {
+    margin-bottom: 10px;
+    font-size: 17px;
+    list-style-type: disc;
+}
+
+ul.li{
+    list-style-type: disc;
+}
+
+/* Liens */
+a {
+    color: #176b9a;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #d35400;
+}
+
+/* Dernier paragraphe */
+#fin {
+    text-align: center;
+    font-style: italic; /* met le texte en italique */
+    font-weight: bold;
+    color: #1d0eef;
+}
